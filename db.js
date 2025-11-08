@@ -1,6 +1,6 @@
 const mongoose = require("mongoose")
 console.log("Successfully connected to mongoDB");
-mongoose.connect("mongodb+srv://rajshripatil19022006_db_user:zruXlOjvj08jInnL@cluster0.3svr7b6.mongodb.net/coursera")
+
 
 const { Schema} = require("mongoose")
 const ObjectId = mongoose.Types.ObjectId;

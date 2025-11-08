@@ -1,9 +1,9 @@
 const express = require("express")
-const app = express()
 const { createUserRoutes } = require('./routes/user')
 const { createCourseRoutes } = require('./routes/course')
+const app = express()
 
-createUserRoutes()
-createCourseRoutes()
+createUserRoutes(app)
+createCourseRoutes(app)
 
 app.listen(5500)

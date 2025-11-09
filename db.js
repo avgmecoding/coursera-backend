@@ -1,7 +1,6 @@
 const mongoose = require("mongoose")
 console.log("Successfully connected to mongoDB");
 
-
 const { Schema} = require("mongoose")
 const ObjectId = mongoose.Types.ObjectId;
 

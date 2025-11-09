@@ -22,7 +22,7 @@ adminRouter.post("/createCourse", function(req, res){
     })
 })
 
-adminRouter.put("updateCourse", function(req, res){
+adminRouter.put("/updateCourse", function(req, res){
     res.send({
         msg: "updated the course by admin"
     })

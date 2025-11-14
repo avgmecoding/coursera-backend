@@ -16,19 +16,19 @@ adminRouter.post("/login", function (req, res) {
 
 // adminRouter.use(adminMiddleware)
 
-adminRouter.post("/createCourse", function(req, res){
+adminRouter.post("/course/createCourse", function(req, res){
     res.send({
         msg: "created new course by admin"
     })
 })
 
-adminRouter.put("/updateCourse", function(req, res){
+adminRouter.put("/course/updateCourse", function(req, res){
     res.send({
         msg: "updated the course by admin"
     })
 })
 
-adminRouter.get("/bulk", function(req, res){
+adminRouter.get("/course/bulk", function(req, res){
     res.send({
 
         msg: "see all courses here"
